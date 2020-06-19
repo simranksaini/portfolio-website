@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "apollo-boost": "^0.4.9",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "graphql": "^15.1.0",
+    "graphql-language-service-parser": "^1.6.0",
+    "radium": "^0.26.0",
+    "randomcolor": "^0.5.4",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-center-tag": "^1.0.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-easy-emoji": "^1.4.0",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/icons-logos": "^1.0.11",
+    "@iconify/react": "^1.1.3"
   }
 }
