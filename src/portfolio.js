@@ -1,6 +1,5 @@
 import emoji from "react-easy-emoji";
 const greeting = {
-  /* Your Summary And Greeting Section */
   username: "Gursimran",
   title: "Hello, I'm Gursimran",
   subTitle: emoji(
@@ -11,7 +10,6 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1tlYMUYn6RHVeKrKt0ukKVlhtPxDD9UFC/view?usp=sharing",
-
   blogLink: "https://medium.com/@sainigursimrankaur",
 };
 const socialMediaLinks = {
@@ -199,17 +197,6 @@ const aboutSim = {
       tenure: "Nothing says home, like the smell of baking!",
       cred: "",
     },
-    // {
-    //   name: "Matriculation",
-    //   header: "Matriculation",
-    //   illus: require("./illustrations/matriculation.svg"),
-    //   heading: emoji(
-    //     "📚 Studied at Mount Carmel Senior Secondary School, Una, Himachal Pradesh"
-    //   ),
-    //   tenure: "March 2015",
-    //   cred: "ICSE: Scored: 89%",
-    //   courses: ["course1", "course2"],
-    // },
   ],
   pos: [
     {
@@ -404,14 +391,6 @@ const items = [
   },
 ];
 
-const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com",
-};
-
 export {
   greeting,
   socialMediaLinks,
@@ -419,5 +398,4 @@ export {
   skillsSection,
   certificates,
   items,
-  contactInfo,
 };
