@@ -1,0 +1,61 @@
+.certis-text-div {
+    margin-right: 50px;
+
+    justify-content: left;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px;
+
+}
+
+.certis-main-div>* {
+    flex: 1;
+    margin-bottom: 3px;
+}
+
+.certis-image-div>img {
+    height: 26vw;
+
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .certis-heading {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+
+    .certis-main-div {
+        padding-top: 4vw;
+        display: flex;
+        height: 80vh;
+        font-family: 'Montserrat',
+            sans-serif;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .certis-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .certis-main-div {
+        padding-top: 0vw;
+        display: flex;
+        /* height: -webkit-fill-available; */
+        font-family: 'Montserrat',
+            sans-serif;
+        flex-direction: column
+    }
+
+    .certis-text-div {
+        margin-left: 0px;
+        margin: 20px;
+    }
+
+    .certis-image-div {
+        /* display: none; */
+        order: 2;
+    }
+}

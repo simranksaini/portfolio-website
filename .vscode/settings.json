@@ -1,0 +1,10 @@
+{
+    "prettier.jsxBracketSameLine": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.quickSuggestions": null,
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact"
+    }
+}

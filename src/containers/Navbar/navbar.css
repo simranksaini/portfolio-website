@@ -1,0 +1,101 @@
+.navb {
+    width: 100vw;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    transition: top 0.6s;
+    z-index: 115725;
+    text-align: left;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: white;
+    opacity: 0.7;
+}
+
+.logo {
+    display: block flex;
+    float: left;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    line-height: normal;
+    font-family: 'Sacramento',
+        cursive;
+    /* padding: 0 10px; */
+    color: black;
+    font-size: 2rem;
+    font-weight: 425;
+    opacity: 1;
+    padding: 0 3vw;
+    text-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px;
+}
+
+.menuList {
+    color: black;
+    font-weight: 425;
+    opacity: 1;
+    display: inline-block flex;
+    height: 100%;
+    /* font-size: 16px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 1vw 3vw;
+    text-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px;
+
+}
+
+.logo:hover,
+.menuList:hover {
+    font-weight: 500;
+    color: #e6801e;
+}
+
+/* .menuList--active {
+    color: #ffaa3b;
+    border-top: 4px solid #ffaa3b;
+    font-weight: 700;
+} */
+
+
+.navb--hidden {
+    top: -60px;
+    z-index: 115725;
+}
+
+
+/* .navv {
+    background-color: rgba(163, 163, 163, 0.788);
+    z-index: 115725;
+    width: 100%;
+    height: 4rem;
+}
+
+
+.mitem {
+    padding-top: 500px;
+
+    font-size: 1.2rem;
+
+} */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+        font-size: 1.58rem;
+        font-weight: 425;
+        padding: 0 3vw;
+    }
+
+    .menuList {
+
+        font-weight: 425;
+        opacity: 1;
+
+        height: 100%;
+        font-size: 12px;
+
+        padding: 1vw 3vw;
+
+    }
+
+}

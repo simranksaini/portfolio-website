@@ -1,0 +1,72 @@
+.grid {
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 0;
+}
+
+
+#overlay-grid {
+    z-index: -1;
+}
+
+.overlay-tile {
+    transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+
+.tile {
+    border: solid rgba(255, 255, 255, 0.2);
+    border-bottom: 0px;
+    border-left-width: 1px;
+    border-right: 0px;
+    border-top-width: 1px;
+    float: left;
+    height: auto;
+    position: relative;
+    width: 10%;
+}
+
+#tile-grid {
+    z-index: -2;
+}
+
+/* .gridcol:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.ovgridcol {
+    transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    z-index: -1;
+} */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .grid {
+        height: 667px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        top: 0;
+    }
+
+    .ui.padded.grid:not(.vertically):not(.horizontally) {
+        /* width: 465px; */
+        width: 378px;
+    }
+
+    .ui.grid>.column:not(.row),
+    .ui.grid>.row>.column {
+        width: 8.3%;
+    }
+}

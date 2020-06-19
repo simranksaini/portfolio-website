@@ -1,0 +1,154 @@
+.cards {
+    padding-left: 20px;
+    display: flex;
+
+}
+
+/* title of the project */
+.ui.card>.content>.header:not(.ui),
+.ui.cards>.card>.content>.header:not(.ui) {
+    font-size: 16px;
+    color: #e6801e;
+}
+
+/* meta title of project */
+.ui.card .meta,
+.ui.cards>.card .meta {
+    font-size: 12px;
+}
+
+/* description of the project */
+.ui.card>.content>.description,
+.ui.cards>.card>.content>.description {
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* project card */
+.ui.cards>.card {
+    height: 11vw;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.main {
+    height: auto;
+    z-index: 3;
+    margin: 1rem;
+    word-wrap: break-word;
+    /* overflow: hidden; */
+}
+
+.proj-main-div {
+    padding-block-start: 3vw;
+    display: flex;
+    /* height: -webkit-fill-available; */
+    /* height: 10vh; */
+    font-family: 'Montserrat',
+        sans-serif;
+    margin: 1rem;
+}
+
+.proj-text-div {
+    margin-left: 50px;
+    justify-content: left;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px;
+}
+
+.proj-head {
+    font-size: 26px;
+}
+
+.proj-p {
+    font-size: 14.5px;
+}
+
+.proj-main-div>* {
+    flex: 2;
+    margin-bottom: 30px;
+
+}
+
+.proj-img-div>img {
+    padding-left: 20px;
+    width: 45vw;
+    height: auto;
+    padding-top: 7vw;
+}
+
+/* 
+.blah {
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: left;
+} */
+
+.footer-div {
+    margin-top: 2rem;
+
+}
+
+.footer-text {
+    text-align: center;
+    color: #868e96;
+
+}
+
+@media (max-width: 768px) {
+    .proj-main-div {
+        flex-direction: column;
+        padding-top: 0px;
+        /* height: 80vh; */
+    }
+
+    .proj-text-div {
+        margin-left: 0px;
+        margin: 20px;
+    }
+
+    .proj-img-div {
+        order: 2;
+    }
+
+    .proj-head {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .proj-p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* title of the project */
+    .ui.card>.content>.header:not(.ui),
+    .ui.cards>.card>.content>.header:not(.ui) {
+        font-size: 10px;
+
+    }
+
+    /* meta title of project */
+    .ui.card .meta,
+    .ui.cards>.card .meta {
+        font-size: 8px;
+    }
+
+    /* description of the project */
+    .ui.card>.content>.description,
+    .ui.cards>.card>.content>.description {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    /* project card */
+    .ui.cards>.card {
+
+        height: 15vw;
+        overflow: auto;
+        overflow-wrap: break-word;
+    }
+}
