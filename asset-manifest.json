@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.8cf7e9cc.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.0cad3225.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.0cad3225.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.d0dba410.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.d0dba410.js.map",
+    "static/js/2.5b617341.chunk.js": "/portfolio-website/static/js/2.5b617341.chunk.js",
+    "static/js/2.5b617341.chunk.js.map": "/portfolio-website/static/js/2.5b617341.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.42f24808aae0321f72bf373addd628f8.js": "/portfolio-website/precache-manifest.42f24808aae0321f72bf373addd628f8.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/main.8cf7e9cc.chunk.css.map": "/portfolio-website/static/css/main.8cf7e9cc.chunk.css.map",
+    "static/js/2.5b617341.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.5b617341.chunk.js.LICENSE.txt",
+    "static/media/ADS(COC).pdf": "/portfolio-website/static/media/ADS(COC).126036da.pdf",
+    "static/media/Flask(COC).pdf": "/portfolio-website/static/media/Flask(COC).0c988a1f.pdf",
+    "static/media/International Cyber Conflicts (COC).pdf": "/portfolio-website/static/media/International Cyber Conflicts (COC).f49069f0.pdf",
+    "static/media/MLBasics(COC).pdf": "/portfolio-website/static/media/MLBasics(COC).d73327e0.pdf",
+    "static/media/MongoDB(COC).pdf": "/portfolio-website/static/media/MongoDB(COC).1721d7cd.pdf",
+    "static/media/React(COC).pdf": "/portfolio-website/static/media/React(COC).d84c2314.pdf",
+    "static/media/SQL(COC).pdf": "/portfolio-website/static/media/SQL(COC).5b35b6de.pdf",
+    "static/media/aboutMe.svg": "/portfolio-website/static/media/aboutMe.c04c44f2.svg",
+    "static/media/baking.svg": "/portfolio-website/static/media/baking.fce199e9.svg",
+    "static/media/ccs.svg": "/portfolio-website/static/media/ccs.3394874c.svg",
+    "static/media/certificationsOrSkills.svg": "/portfolio-website/static/media/certificationsOrSkills.1cf733fe.svg",
+    "static/media/coder.svg": "/portfolio-website/static/media/coder.19e338fe.svg",
+    "static/media/coding.svg": "/portfolio-website/static/media/coding.908650b2.svg",
+    "static/media/college.svg": "/portfolio-website/static/media/college.24c75930.svg",
+    "static/media/logo.svg": "/portfolio-website/static/media/logo.5d5d9eef.svg",
+    "static/media/matriculation.svg": "/portfolio-website/static/media/matriculation.25ed82d7.svg",
+    "static/media/senSecEdu.svg": "/portfolio-website/static/media/senSecEdu.6a746990.svg",
+    "static/media/tff.svg": "/portfolio-website/static/media/tff.b73d3a3e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0dba410.js",
+    "static/js/2.5b617341.chunk.js",
+    "static/css/main.8cf7e9cc.chunk.css",
+    "static/js/main.0cad3225.chunk.js"
+  ]
+}
