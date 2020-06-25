@@ -9,21 +9,21 @@ const SocialMedia = () => {
         href={socialMediaLinks.github}
         className="icon-button github"
         target="_blank">
-        <i className="fab fa-github"></i>
+        <i className="icon-github"></i>
         <span></span>
       </a>
       <a
         href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
         target="_blank">
-        <i className="fab fa-linkedin-in"></i>
+        <i className="icon-linkedin"></i>
         <span></span>
       </a>
       <a
         href={`mailto:${socialMediaLinks.gmail}`}
         className="icon-button google"
         target="_blank">
-        <i className="fab fa-google"></i>
+        <i className="icon-envelope"></i>
         <span></span>
       </a>
     </div>

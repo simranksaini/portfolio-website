@@ -29,16 +29,16 @@ const Fpage = () => {
             <SocialMedia />
             <div className="button-greeting-div">
               <Button
-                type="blog"
-                text="See Projects"
-                newTab={false}
-                href="#projects"
-              />
-              <Button
-                text="See Resume"
+                text="Resume"
                 type="resume"
                 newTab={true}
                 href={greeting.resumeLink}
+              />
+              <Button
+                type="hire"
+                text="Hire Me"
+                newTab={false}
+                href={`mailto:${socialMediaLinks.gmail}`}
               />
             </div>
           </Container>

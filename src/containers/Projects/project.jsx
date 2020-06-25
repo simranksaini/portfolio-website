@@ -68,7 +68,9 @@ const Projects = () => {
       </div>
       <Fade bottom duration={1000} distance="5px">
         <div className="footer-div">
-          <p className="footer-text">{emoji("Made with ❤️ by Gursimran")}</p>
+          <p className="footer-text">
+            {emoji("Made with ReactJS and ❤️ by Gursimran")}
+          </p>
         </div>
       </Fade>
     </div>

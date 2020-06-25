@@ -170,7 +170,7 @@ const aboutSim = {
         "📚 Studied at Mount Carmel Senior Secondary School, Una, Himachal Pradesh"
       ),
       tenure: "March 2015",
-      cred: "ICSE: Scored: 89%",
+      cred: "ICSE: Scored: 95.8%",
       courses: [
         {
           courseName: "Mathematics",
@@ -377,13 +377,23 @@ const items = [
     href: "https://github.com/simranksaini/social-clone.git",
   },
   {
+    header: "Diabetes Predictor",
+    description:
+      "Built a basic diabetes predictor model using machine learning.",
+    meta: "May 2020",
+  },
+  {
     header: "Blog Site",
     description:
       "Built a basic blog site using Django Framework, JavaScript, Bootstrap, CSS, and HTML; where a user can read the published blogs and register/login to post a blog.(Click to see repo)",
     meta: "Apr 2020",
     href: "https://github.com/simranksaini/blog-project.git",
   },
-
+  {
+    header: "Plot5 game",
+    description: "Built a plot 5 game using vanilla JavaScript.",
+    meta: "Jun 2019",
+  },
   {
     header: "Supermarket Management System",
     description: "Built a supermarket management software using SQL and PL/SQL",
