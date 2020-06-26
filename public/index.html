@@ -1,78 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="utf-8" http-equiv="encoding" />
+    <meta
+      name="description"
+      content="Portfolio website of Gursimran. A computer networks and web developement enthusiast and a passionate programmer."
+    />
+    <meta
+      name="keywords"
+      content="gursimran, kaur, saini, simran, simranksaini, engineer, developer, programmer, hacker, software, web, machine learninng, github, open source, template, thapar, thapar institute, c++, python, javascript, react, html, css, portfolio, website, project,"
+    />
+    <meta name="author" content="gursimran, sainigursimrankaur@gmail.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Gursimran's Portfolio"
+      content="Portfolio website created using create-react-app"
+    />
+    <meta
+      name="subject"
+      content="gursimran | A fledgling full stack developer"
+    />
+    <meta name="copyright" content="gursimran" />
+    <meta name="language" content="en-US" />
+    <meta name="robots" content="index,follow" />
+    <meta name="topic" content="gursimran | A fledgling full stack developer" />
+    <meta name="summary" content="This website " />
+    <meta name="Classification" content="Portfolio Website" />
+    <meta name="reply-to" content="sainigursimrankaur@gmail.com" />
+    <meta name="owner" content="gursimran" />
+    <meta
+      name="url"
+      content="https://simranksaini.github.io/portfolio-website/"
+    />
 
-<head>
-  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-  <meta charset="utf-8" http-equiv="encoding" />
-  <meta name="description"
-    content="Portfolio website of Gursimran. A computer networks and web developement enthusiast and a passionate programmer.">
-  <meta name="keywords"
-    content="gursimran, kaur, saini, simran, simranksaini, engineer, developer, programmer, hacker, software, web, machine learninng, github, open source, template, thapar, thapar institute, c++, python, javascript, react, html, css, portfolio, website, project,">
-  <meta name="author" content="gursimran, sainigursimrankaur@gmail.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="Gursimran's Portfolio" content="Portfolio website created using create-react-app" />
-  <meta name="subject" content="gursimran | A fledgling full stack developer">
-  <meta name="copyright" content="gursimran">
-  <meta name="language" content="en-US">
-  <meta name="robots" content="index,follow" />
-  <meta name="topic" content="gursimran | A fledgling full stack developer">
-  <meta name="summary" content="This website ">
-  <meta name="Classification" content="Portfolio Website">
-  <meta name="reply-to" content="sainigursimrankaur@gmail.com">
-  <meta name="owner" content="gursimran">
-  <meta name="url" content="https://simranksaini.github.io/portfolio-website/">
+    <meta property="og:title" content="Gursimran's Portfolio Website" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://simranksaini.github.io/portfolio-website/"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/simranksaini/portfolio-website/blob/master/public/favicon.ico"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio website created using ReactJS."
+    />
+    <meta property="og:email" content="sainigursimrankaur@gmail.com" />
 
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  <meta property="og:title" content="Gursimran's Portfolio Website" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://simranksaini.github.io/portfolio-website/" />
-  <meta property="og:image"
-    content="https://github.com/simranksaini/portfolio-website/blob/master/public/favicon.ico" />
-  <meta property="og:description" content="Portfolio website created using ReactJS." />
-  <meta property="og:email" content="sainigursimrankaur@gmail.com" />
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "UA-135618960-2");
+    </script>
 
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="%PUBLIC_URL%/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
 
-    gtag("config", "UA-135618960-2");
-  </script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
+    <title>Gursimran's Portfolio</title>
+  </head>
 
-  <link rel="shortcut icon" type="image/png" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
-    rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-
-
-
-  <title>Gursimran's Portfolio</title>
-</head>
-
-<body>
-
-  <div id="root"></div>
-</body>
-
+  <body>
+    <div id="root"></div>
+  </body>
 </html>

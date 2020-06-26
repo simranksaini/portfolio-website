@@ -9,8 +9,7 @@ const SocialMedia = () => {
         href={socialMediaLinks.github}
         className="icon-button github"
         target="_blank">
-        <i className="icon-github"></i>
-        <span></span>
+        <i className="fab fa-github"></i>
       </a>
       <a
         href={socialMediaLinks.linkedin}
