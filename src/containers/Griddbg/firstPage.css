@@ -64,6 +64,7 @@
     padding-left: 5vw;
     display: flex;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .animate__animated.animate__pulse {
