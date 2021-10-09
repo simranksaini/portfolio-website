@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.4e17accb.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.8b569f18.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.8b569f18.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.1e83ad3e.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.74f0a75d.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.74f0a75d.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.d0dba410.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.d0dba410.js.map",
-    "static/js/2.896eb3f8.chunk.js": "/portfolio-website/static/js/2.896eb3f8.chunk.js",
-    "static/js/2.896eb3f8.chunk.js.map": "/portfolio-website/static/js/2.896eb3f8.chunk.js.map",
+    "static/js/2.145c2bd0.chunk.js": "/portfolio-website/static/js/2.145c2bd0.chunk.js",
+    "static/js/2.145c2bd0.chunk.js.map": "/portfolio-website/static/js/2.145c2bd0.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.239edf7a8353eaf9bd50d8c2662957d4.js": "/portfolio-website/precache-manifest.239edf7a8353eaf9bd50d8c2662957d4.js",
+    "precache-manifest.45c927bd4faf1f61dd6f34fd88679f24.js": "/portfolio-website/precache-manifest.45c927bd4faf1f61dd6f34fd88679f24.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.4e17accb.chunk.css.map": "/portfolio-website/static/css/main.4e17accb.chunk.css.map",
-    "static/js/2.896eb3f8.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.896eb3f8.chunk.js.LICENSE.txt",
+    "static/css/main.1e83ad3e.chunk.css.map": "/portfolio-website/static/css/main.1e83ad3e.chunk.css.map",
+    "static/js/2.145c2bd0.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.145c2bd0.chunk.js.LICENSE.txt",
     "static/media/ADS(COC).pdf": "/portfolio-website/static/media/ADS(COC).126036da.pdf",
     "static/media/Flask(COC).pdf": "/portfolio-website/static/media/Flask(COC).0c988a1f.pdf",
     "static/media/International Cyber Conflicts (COC).pdf": "/portfolio-website/static/media/International Cyber Conflicts (COC).f49069f0.pdf",
@@ -19,11 +19,10 @@
     "static/media/MongoDB(COC).pdf": "/portfolio-website/static/media/MongoDB(COC).1721d7cd.pdf",
     "static/media/React(COC).pdf": "/portfolio-website/static/media/React(COC).d84c2314.pdf",
     "static/media/SQL(COC).pdf": "/portfolio-website/static/media/SQL(COC).5b35b6de.pdf",
-    "static/media/aboutMe.svg": "/portfolio-website/static/media/aboutMe.c04c44f2.svg",
-    "static/media/baking.svg": "/portfolio-website/static/media/baking.fce199e9.svg",
+    "static/media/aboutMe.svg": "/portfolio-website/static/media/aboutMe.0238abbc.svg",
     "static/media/ccs.svg": "/portfolio-website/static/media/ccs.3394874c.svg",
     "static/media/certificationsOrSkills.svg": "/portfolio-website/static/media/certificationsOrSkills.1cf733fe.svg",
-    "static/media/coder.svg": "/portfolio-website/static/media/coder.19e338fe.svg",
+    "static/media/coder.svg": "/portfolio-website/static/media/coder.f4452608.svg",
     "static/media/coding.svg": "/portfolio-website/static/media/coding.908650b2.svg",
     "static/media/college.svg": "/portfolio-website/static/media/college.24c75930.svg",
     "static/media/matriculation.svg": "/portfolio-website/static/media/matriculation.25ed82d7.svg",
@@ -32,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d0dba410.js",
-    "static/js/2.896eb3f8.chunk.js",
-    "static/css/main.4e17accb.chunk.css",
-    "static/js/main.8b569f18.chunk.js"
+    "static/js/2.145c2bd0.chunk.js",
+    "static/css/main.1e83ad3e.chunk.css",
+    "static/js/main.74f0a75d.chunk.js"
   ]
 }

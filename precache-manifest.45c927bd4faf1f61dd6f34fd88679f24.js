@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ba84313f91ef6cc73eb9963170cc774",
+    "revision": "8dc48e8d4515b44fb212fafe72881a0d",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "a7ae23aff703490e1720",
-    "url": "/portfolio-website/static/css/main.4e17accb.chunk.css"
+    "revision": "f87593d30da4a4a16e05",
+    "url": "/portfolio-website/static/css/main.1e83ad3e.chunk.css"
   },
   {
-    "revision": "66fa08216946a4d05a78",
-    "url": "/portfolio-website/static/js/2.896eb3f8.chunk.js"
+    "revision": "4170edf6ed11c81f7266",
+    "url": "/portfolio-website/static/js/2.145c2bd0.chunk.js"
   },
   {
     "revision": "0311aa83fad0c839fa0d630ea3d0368e",
-    "url": "/portfolio-website/static/js/2.896eb3f8.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.145c2bd0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7ae23aff703490e1720",
-    "url": "/portfolio-website/static/js/main.8b569f18.chunk.js"
+    "revision": "f87593d30da4a4a16e05",
+    "url": "/portfolio-website/static/js/main.74f0a75d.chunk.js"
   },
   {
     "revision": "a74d104f0088369e7888",
@@ -52,12 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/SQL(COC).5b35b6de.pdf"
   },
   {
-    "revision": "c04c44f21224fe78d1566da2963a7459",
-    "url": "/portfolio-website/static/media/aboutMe.c04c44f2.svg"
-  },
-  {
-    "revision": "fce199e96fa50886f96dd527df1e15fb",
-    "url": "/portfolio-website/static/media/baking.fce199e9.svg"
+    "revision": "0238abbc88e133f06901134dfc0d5dc9",
+    "url": "/portfolio-website/static/media/aboutMe.0238abbc.svg"
   },
   {
     "revision": "3394874c782205302cc6e39f4b12c89a",
@@ -68,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/certificationsOrSkills.1cf733fe.svg"
   },
   {
-    "revision": "19e338fe06bd9ec04f6c25d66c17bf1c",
-    "url": "/portfolio-website/static/media/coder.19e338fe.svg"
+    "revision": "f44526086686b93f2e41ae389bd96fb6",
+    "url": "/portfolio-website/static/media/coder.f4452608.svg"
   },
   {
     "revision": "908650b26c4e0da36664bf8365de4a13",
