@@ -6,12 +6,14 @@ import "./modalm.css";
 const Modalm = ({
   name,
   header,
+  website,
   image,
   deschead,
   descten,
   desctext,
   courses,
   achievements,
+  extraCurriculum,
   about,
   resp,
   certificate,
@@ -76,7 +78,18 @@ const Modalm = ({
             {name}
           </Button>
         }>
-        <Modal.Header>{header}</Modal.Header>
+        <Modal.Header>
+          {header && website ? (
+            <div>
+              {header}
+              <a href={website} target="_blank" rel="noopener noreferrer">
+                <span class="iconify" data-icon="eva:external-link-fill"></span>
+              </a>
+            </div>
+          ) : (
+            header
+          )}
+        </Modal.Header>
         <Modal.Content image scrolling>
           {image ? <Image wrapped size="medium" src={image} /> : null}
 
@@ -100,7 +113,7 @@ const Modalm = ({
                           }}>
                           {course.courseName}
                         </li>
-                        {course.grade ? (
+                        {/* {course.grade ? (
                           <em
                             style={{
                               textAlign: "left",
@@ -121,7 +134,7 @@ const Modalm = ({
                             }}>
                             Score: {course.score}
                           </em>
-                        ) : null}
+                        ) : null} */}
                       </div>
                     );
                   })}
@@ -141,6 +154,25 @@ const Modalm = ({
                 </p>
                 <br />
               </div>
+            ) : null}
+            {extraCurriculum ? (
+              <>
+                <div>
+                  <h3>Extra Curriculum:</h3>
+                  {extraCurriculum.map((pos) => {
+                    return (
+                      <Modalm
+                        name={pos.name}
+                        header={pos.header}
+                        image={pos.illus}
+                        about={pos.about}
+                        resp={pos.resp}
+                      />
+                    );
+                  })}
+                </div>
+                <br />
+              </>
             ) : null}
             {about ? <p>{about}</p> : null}
             {resp ? (

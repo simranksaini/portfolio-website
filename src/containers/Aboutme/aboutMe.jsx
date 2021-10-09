@@ -18,10 +18,22 @@ const Aboutme = () => {
         </Fade>
         <Fade right duration={1000}>
           <div className="about-text-div">
+            <h1 className="about-head">As a Software Engineer...</h1>
+            <p className="about-p">{aboutSim.aboutMeDescription}</p>
+            <h1 className="about-head">Work Experience</h1>
+            {aboutSim.workExperience.map((work) => {
+              return (
+                <Modalm
+                  name={work.name}
+                  header={work.header}
+                  image={work.illus}
+                  about={work.about}
+                  resp={work.resp}
+                  website={work.href}
+                />
+              );
+            })}
             <h1 className="about-head">Education</h1>
-            <p className="about-p">
-              Click the modal boxes to get the details about my education
-            </p>
             {aboutSim.education.map((edu) => {
               return (
                 <Modalm
@@ -33,10 +45,11 @@ const Aboutme = () => {
                   desctext={edu.cred}
                   courses={edu.courses}
                   achievements={edu.achievements}
+                  extraCurriculum={edu.extraCurriculum}
                 />
               );
             })}
-            <h1 className="about-head">Hobbies</h1>
+            {/* <h1 className="about-head">Hobbies</h1>
             <p className="about-p">
               Click the modal boxes to know more about my hobbies.
             </p>
@@ -52,19 +65,7 @@ const Aboutme = () => {
                   courses={hobby.courses}
                 />
               );
-            })}
-            <h1 className="about-head">Extracurriculars</h1>
-            {aboutSim.pos.map((pos) => {
-              return (
-                <Modalm
-                  name={pos.name}
-                  header={pos.header}
-                  image={pos.illus}
-                  about={pos.about}
-                  resp={pos.resp}
-                />
-              );
-            })}
+            })} */}
           </div>
         </Fade>
       </div>

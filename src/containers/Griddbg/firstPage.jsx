@@ -23,9 +23,10 @@ const Fpage = () => {
               {greeting.title}
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
-            <p id="subtitle">{greeting.subTitle}</p>
-            <br />
+            {/* <p id="subtitle">{greeting.subTitle}</p>
+            <br /> */}
             <p>{greeting.about}</p>
+            <p>{greeting.about2}</p>
             <SocialMedia />
             <div className="button-greeting-div">
               <Button

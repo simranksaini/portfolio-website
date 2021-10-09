@@ -7,7 +7,7 @@
 /* title of the project */
 .ui.card>.content>.header:not(.ui),
 .ui.cards>.card>.content>.header:not(.ui) {
-    font-size: 16px;
+    font-size: 13px;
     color: #e6801e;
 }
 
@@ -20,7 +20,7 @@
 /* description of the project */
 .ui.card>.content>.description,
 .ui.cards>.card>.content>.description {
-    font-size: 13px;
+    font-size: 11px;
     text-align: justify;
 }
 
@@ -85,6 +85,7 @@
 
 .footer-div {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 

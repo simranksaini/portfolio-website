@@ -56,7 +56,7 @@ const Projects = () => {
               Click on the project card to view the project repository
             </p> */}
             <Card.Group
-              itemsPerRow={2}
+              itemsPerRow={3}
               className="cards"
               onMouseOver={changeBackground}
               onMouseOut={defbg}

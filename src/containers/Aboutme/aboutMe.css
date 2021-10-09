@@ -7,7 +7,7 @@
 }
 
 .about-main-div {
-    padding-block-start: 3vw;
+    padding-block-start: 4vw;
     display: flex;
     height: -webkit-fill-available;
     font-family: 'Montserrat',
@@ -36,7 +36,7 @@
 }
 
 .about-img-div>img {
-    height: 43vw;
+    height: 34vw;
     width: auto;
 }
 
